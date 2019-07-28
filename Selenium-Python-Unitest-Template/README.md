@@ -22,6 +22,7 @@ By default it runs in Chrome browser, you can specify which browser to use as we
 python tests/RunTest.py --browser=firefox
 ```
 > Make sure to set the PYTHONPATH in environment variables.  Or else it may throw an error - ```ModuleNotFoundError: No module named '<package>'```
+> Refer [https://bic-berkeley.github.io/psych-214-fall-2016/using_pythonpath.html](https://bic-berkeley.github.io/psych-214-fall-2016/using_pythonpath.html)
 
 
 Currently supported browsers are
