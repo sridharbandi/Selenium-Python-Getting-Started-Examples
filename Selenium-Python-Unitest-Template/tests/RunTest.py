@@ -1,9 +1,9 @@
 import unittest
 import argparse
 import sys
-from driverutil import Browser
-from pageobjects import GoogleSearchPage
-from pageobjects import SearchResultsPage
+from driverutil.Browser import Browser
+from pageobjects.GoogleSearchPage import GoogleSearchPage
+from pageobjects.SearchResultsPage import SearchResultsPage
 
 
 class RunTest(unittest.TestCase):
