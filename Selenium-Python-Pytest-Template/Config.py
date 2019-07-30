@@ -3,7 +3,7 @@ from driverutil.Browser import Browser
 
 
 @pytest.fixture(params=["chrome", "firefox"], scope="class")
-def driver_init(request):
+def driverinit(request):
     webdriver = Browser().getbrowser(request.param)
     request.cls.driver = webdriver
     yield
