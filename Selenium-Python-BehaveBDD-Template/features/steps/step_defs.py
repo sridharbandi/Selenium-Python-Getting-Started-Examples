@@ -1,6 +1,6 @@
 from behave import given, when, then
-from pageobjects.GoogleSearchPage import GoogleSearchPage
-from pageobjects.SearchResultsPage import SearchResultsPage
+from pageobjects.google_search_page import GoogleSearchPage
+from pageobjects.search_results_page import SearchResultsPage
 
 
 @given(u'User is on Google search page')
