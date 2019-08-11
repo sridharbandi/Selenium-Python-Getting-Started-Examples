@@ -1,4 +1,4 @@
-from driverutil.Browser import Browser
+from driverutil.browser import Browser
 
 
 def before_scenario(context, scenario):
