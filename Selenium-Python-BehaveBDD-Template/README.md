@@ -17,6 +17,14 @@ Issue the below commands in project root directory
 ```javascript
 behave
 ```
+To run all scenarios in a feature file
+```javascript
+behave features/Google_search.feature
+```
+To run scenarios with specific tag
+```javascript
+behave --tags @smoke
+```
 By default it runs in Chrome browser, you can specify which browser to use as well
 ```javascript
 behave --browser=firefox
