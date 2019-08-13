@@ -24,6 +24,8 @@ behave features/Google_search.feature
 To run scenarios with specific tag
 ```javascript
 behave --tags @smoke
+behave --tags ~@pending
+behave --tags @smoke,@regression
 ```
 To generate Junit Report
 ```javascript
