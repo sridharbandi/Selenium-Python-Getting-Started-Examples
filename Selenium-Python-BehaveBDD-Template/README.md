@@ -25,6 +25,10 @@ To run scenarios with specific tag
 ```javascript
 behave --tags @smoke
 ```
+To generate Junit Report
+```javascript
+behave --junit
+```
 By default it runs in Chrome browser, you can specify which browser to use as well
 ```javascript
 behave --browser=firefox
