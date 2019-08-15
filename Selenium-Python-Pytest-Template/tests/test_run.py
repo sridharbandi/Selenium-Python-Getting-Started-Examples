@@ -1,7 +1,7 @@
 import pytest
 
-from pageobjects.GoogleSearchPage import GoogleSearchPage
-from pageobjects.SearchResultsPage import SearchResultsPage
+from pageobjects.google_search_page import GoogleSearchPage
+from pageobjects.search_results_page import SearchResultsPage
 from tests.BaseTest import BaseTest
 
 
@@ -14,4 +14,4 @@ class test_run(BaseTest):
         self.driver.get("https://www.google.com/")
         self.googlesearchpage.searchfor("Selenium")
         self.searchresultspage.link_selenium_present()
-        pass
+
