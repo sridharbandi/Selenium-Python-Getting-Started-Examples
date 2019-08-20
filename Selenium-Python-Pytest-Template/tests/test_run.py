@@ -2,7 +2,7 @@ import pytest
 
 from pageobjects.google_search_page import GoogleSearchPage
 from pageobjects.search_results_page import SearchResultsPage
-from tests.BaseTest import BaseTest
+from tests.base_test import BaseTest
 
 
 @pytest.mark.incremental
