@@ -1,5 +1,5 @@
 import pytest
-from driverutil.Browser import Browser
+from driverutil.browser import Browser
 
 
 @pytest.fixture(params=["chrome", "firefox"], scope="class")
